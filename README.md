@@ -1,2 +1,2 @@
 # UniversityProjects
-Explore my ongoing university projects here. Each repo represents a different facet of my academic journey. Your feedback is appreciated as we strive for excellence together.
+Welcome to my GitHub repository dedicated to showcasing and managing all the projects I am currently collaborating on with the university. Here, you'll find a collection of my ongoing work, spanning various disciplines and subjects. Feel free to explore the diverse range of projects, each representing a unique facet of my academic journey. Your feedback and contributions are always appreciated as we collectively strive for excellence in our academic pursuits.
