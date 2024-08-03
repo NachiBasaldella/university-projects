@@ -1,0 +1,45 @@
+Detailed Conclusions
+Summary Statistics
+SalePrice:
+
+The average sale price of houses is $180,921.20, with a significant variation as indicated by a standard deviation of $79,442.50.
+The range of sale prices is wide, from a minimum of $34,900 to a maximum of $755,000. The interquartile range (IQR) shows that 50% of the sale prices lie between $129,975 and $214,000, indicating a concentration around these values.
+GarageCars:
+
+The average garage size is approximately 1.77 cars.
+Most houses have garages that can accommodate 1 or 2 cars, as indicated by the median and 75th percentile both being 2 cars. A few houses have garages for 3 or more cars, as shown by the maximum value of 4 cars.
+LotArea:
+
+The average lot area is 10,516.83 square feet, with a substantial standard deviation of 9,981.26 square feet, indicating large variability in lot sizes.
+The lot sizes range from 1,300 to 215,245 square feet, with the interquartile range indicating that 50% of the lot sizes lie between 7,553.5 and 11,601.5 square feet.
+Frequency Tables
+LotConfig:
+
+The majority of houses are located on inside lots (1,052), followed by corner lots (263). There are fewer houses on cul-de-sac lots (94), frontage on two sides (FR2, 47), and only a very few on frontage on three sides (FR3, 4).
+LotShape:
+
+Most lots have a regular shape (925), followed by slightly irregular (IR1, 484), moderately irregular (IR2, 41), and highly irregular (IR3, 10).
+Bivariate Analysis
+Scatter Plot of SalePrice vs GarageCars:
+
+There is a clear positive relationship between the number of garage cars and the sale price. Houses with larger garages tend to have higher sale prices, indicating that garage capacity is a significant factor in house valuation.
+Scatter Plot of SalePrice vs LotArea:
+
+There is a positive correlation between lot area and sale price, suggesting that larger lots tend to have higher sale prices. However, there is considerable variability, indicating that other factors also play significant roles in determining sale prices.
+Box Plot of SalePrice by LotConfig:
+
+The median sale price varies across different lot configurations. Houses in cul-de-sac lots (CulDSac) have higher median prices compared to other lot configurations. Inside lots and corner lots have similar median prices, while houses with frontages on multiple sides (FR2 and FR3) show more variability in prices.
+Box Plot of SalePrice by LotShape:
+
+Regular-shaped lots (Reg) have the highest median sale prices, followed by slightly irregular lots (IR1). Moderately and highly irregular lots (IR2 and IR3) have lower median prices and higher variability, indicating that lot shape impacts the valuation of properties.
+Confidence Intervals for SalePrice
+The mean sale price of the houses is $180,921.20.
+With a 95% confidence level, the confidence interval for the mean sale price ranges from $176,846.22 to $184,996.17.
+This interval suggests that we can be 95% confident that the true mean sale price of houses in this dataset lies within this range. The relatively narrow width of the confidence interval (approximately $8,150) indicates a fairly precise estimate of the mean sale price.
+Final Conclusions
+The analysis reveals several key insights:
+
+Garage Size and Lot Area: Both variables are positively correlated with house prices, with larger garages and lot areas generally leading to higher sale prices. However, lot area shows significant variability, indicating that other factors also influence house prices.
+Lot Configuration and Shape: Both lot configuration and shape impact house prices. Houses on cul-de-sac lots and regular-shaped lots have higher median prices, suggesting these characteristics are valued by buyers.
+Confidence in Mean Sale Price: The 95% confidence interval for the mean sale price is relatively narrow, providing a precise estimate of the average house price in this dataset.
+These findings can help inform real estate valuations and investment decisions by highlighting the importance of garage size, lot area, lot configuration, and shape in determining house prices.
